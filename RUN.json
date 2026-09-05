@@ -7,7 +7,8 @@
       "stack": "python",
       "kind": "cli",
       "install": [["${python}", "-m", "pip", "install", "-e", "."]],
-      "start": ["${python}", "-c", "import validkit"]
+      "start": ["${python}", "-c", "import validkit"],
+      "test": ["${python}", "-m", "pytest"]
     }
   ]
 }
